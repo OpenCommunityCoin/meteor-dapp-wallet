@@ -1,0 +1,111 @@
+
+.app-blur {
+    .dapp-header {
+        background: -moz-linear-gradient(left, #19f1c3 0%, #64b1ff 50%, #ac83ff 100%);
+        background: -webkit-linear-gradient(left, #19f1c3 0%,#64b1ff 50%,#ac83ff 100%);
+        background: linear-gradient(to right, #19f1c3 0%,#64b1ff 50%,#ac83ff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19f1c3', endColorstr='#ac83ff',GradientType=1 );
+    }
+}
+
+.dapp-header {
+    background: -moz-linear-gradient(left, #19f1c3 0%, #64b1ff 50%, #ac83ff 100%);
+    background: -webkit-linear-gradient(left, #19f1c3 0%,#64b1ff 50%,#ac83ff 100%);
+    background: linear-gradient(to right, #19f1c3 0%,#64b1ff 50%,#ac83ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19f1c3', endColorstr='#ac83ff',GradientType=1 );
+    nav {
+        >ul {
+            a {
+                color: #fff;
+                &:visited {
+                    color: #fff;
+                }
+            }
+            .inline-form {
+                >button {
+                    color: #fff;
+                }
+            }
+            >li.active {
+                a {
+                    margin-bottom: 1px;
+                    color: #363b59;
+                    border-bottom: 4px solid #363b59;
+                }
+                button {
+                    margin-bottom: 1px;
+                    color: #363b59;
+                    border-bottom: 4px solid #363b59;
+                }
+            }
+            >li {
+                button.active {
+                    margin-bottom: 1px;
+                    color: #363b59;
+                    border-bottom: 4px solid #363b59;
+                }
+                a.active {
+                    margin-bottom: 1px;
+                    color: #363b59;
+                    border-bottom: 4px solid #363b59;
+                }
+            }
+        }
+    }
+    .block-info {
+        color: #fff;
+    }
+    .wallet-balance {
+        span.account-balance {
+            color: #fff;
+        }
+        h3 {
+            color: #ffe500;
+        }
+    }
+}
+.dapp-header.dapp-small {
+    nav {
+        >ul {
+            >li.active {
+                a {
+                    margin-bottom: 0;
+                }
+                button {
+                    margin-bottom: 0;
+                }
+            }
+            >li {
+                button.active {
+                    margin-bottom: 0;
+                }
+                a.active {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+h2 {
+    background-color: #363b59;
+    color: #fff;
+}
+.block-info {
+    .icon-clock {
+        color: #010101;
+    }
+    .icon-clock&+span {
+        color: #010101;
+    }
+    .hide-on-small {
+        span {
+            color: #010101;
+        }
+    }
+}
+.dapp-content {
+    h1 {
+        color: #363b59;
+    }
+}
+
