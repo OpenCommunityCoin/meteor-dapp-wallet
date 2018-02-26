@@ -26,7 +26,7 @@ Meteor.startup(function() {
             } catch (err) {
                 console.warn('numeral.js couldn\'t set number formating: ', err.message);
             }
-            EthTools.setLocale(lang);
+            EthTools.setLocale("en");
         }
 
         // If on the mainnet, this will add the unicorn token by default, only once.
