@@ -29,6 +29,7 @@ Template['elements_account_link'].helpers({
     @method (nameDisplay)
     */
     'displayName': function(){
+        this.name = this.name.replace(/ \(Etherbase\)/, ''); // HACK
         return this.ens ? this.name.split('.').slice(0, -1).reverse().join(' ▸ ') : this.name;
     },
     /**
