@@ -71,24 +71,24 @@
             }
         },
         "accounts": {
-            "title": "<strong>계정</strong> 요약",
+            "title": "<strong>계정</strong> 정보",
             "walletsTitle": "지갑 계약",
             "accountsTitle": "계정",
             "defaultName": "미정",
             "creating": "만들기",
             "importing": "불러오기",
-            "accountNote": "계정들은 ESC를 보관하고 전송할 수 있지만 개별 입금되는 트랜잭션들을 보여줄 수 없습니다. 개별 입금 트랜잭션들을 보려면 <a href=\"/account/new\">지갑 컨트랙트 설치하기</a>를 해야합니다.",
+            "accountNote": "각 계정은 ESC를 보관하고 전송할 수 있지만 개별 입금되는 트랜잭션들을 보여줄 수 없습니다. 개별 입금 트랜잭션을 보려면 <a href=\"/account/new\">지갑 컨트랙트 설치하기</a>를 해야합니다.",
             "walletNote": "대부분의 거래소는 아직 컨트랙트 지갑을 지원하지 않습니다. 송금하려는 금액을 계정주소로 먼저 이동시키기 바랍니다.",
             "addressCopiedToClipboard": "클립보드에 복사되었습니다",
             "addressNotCopiedToClipboard": "클립보드에 복사하는데 실패했습니다. 다시 시도하세요.",
             "qrCodeLabel": "이 코드를 호환되는 모바일 앱에 입력하세요",
             "dailyLimit": "일일 한도",
-            "dailyLimitRemaining": "일일 한도 잔여시간",
+            "dailyLimitRemaining": "잔여 일일 한도",
             "requiredSignatures": "필요한 서명",
             "owners": "소유자",
             "walletsDescription": "이것은 블록체인에 저장되는 컨트랙트들로서 ESC를 보관하고 보호할 수 있습니다. 다수의 소유자를 지정할 수 있고 모든 트랜잭션 로그기록을 보관합니다.",
             "walletsDescriptionNotEnoughFunds": "1 ESC 이상을 가지고 있으면 여러 가지 기능을 가진 컨트랙트들을 만들 수 있습니다. 지갑 컨트랙트은 기본 스마트 컨트랙트의 한가지 유형인데, 보안 강화를 위해 자금을 다수의 계정에 의해 통제되도록 하거나 하루 출금량을 제한할 수도 있습니다. 여러분의 필요에 맞게 컨트랙트를 만들기 위해서는 <em> 컨트랙트 </em> 메뉴 탭을 클릭하세요",
-            "accountsDescription": "계정은 암호로 보호된 키인데 ESC, 이더소셜을 기반으로 한 토큰 또는 코인들을 보관하고 컨트랙트를 통제합니다. 계정은 개별 입금 트랙잭션은 보여주지 못합니다.",
+            "accountsDescription": "계정은 비밀번호로 보호된 키를 가리키며, ESC 혹은 ESC기반 토큰을 저장합니다. 계정을 통해 컨트랙트(계약)를 제어할 수 있으며, 입금 트랜잭션을 보여주지는 않습니다.",
             "buttons": {
                 "deposit": "이더 입금",
                 "buyEther": "비트코인을 사용한 입금",
@@ -236,6 +236,9 @@
             "sendFunds": "송금",
             "deployContract": "컨트랙트 사용",
             "data": "데이터",
+            "moreOptions": "옵션 더보기",
+            "showMoreOptions": "옵션 더보기",
+            "showLessOptions": "옵션 접기",
             "fee": "수수료 선택",
             "feeLow": "더 싸게",
             "feeHigh": "더 빠르게",
@@ -255,7 +258,7 @@
             "texts": {
                 "ownerPaysGas": "개스는 지갑 컨트랙트의 소유자에 의해 지불되었습니다.",
                 "sendAmount": "보내고자하는 금액은 <strong>__amount__</strong> ESC 입니다.",
-                "sendAmountEquivalent": "보내고자 하는 금액은 <strong>__amount__</strong> ESC이고, 교환비율은 <a href=\"https://www.cryptocompare.com/coins/eth/overview/BTC\" target=\"_blank\">cryptocompare.com</a> 에 근거하였으며, <br>현재 <strong>__etherAmount__ </strong>만큼의 ESC입니다.",
+                "sendAmountEquivalent": "보내고자 하는 금액은 <strong>__amount__</strong> ESC 이고, 교환비율은 <a href=\"https://www.cryptocompare.com/coins/eth/overview/BTC\" target=\"_blank\">cryptocompare.com</a> 에 근거하였으며, <br>현재 <strong>__etherAmount__ </strong>만큼의 ESC입니다.",
                 "sendToken": "<strong> __name__</strong>, <strong>__amount__ __symbol__</strong>을 보내고자 합니다.",
                 "overDailyLimit": "<p class=\"over-daily\">이 금액은 현재 남은 일일 제한 금액인 __limit__ (총 일일 한도 __total__)을 초과합니다, 따라서 __count__ 개의 다른 계정의 승인이 필요합니다.</p>",
                 "overDailyLimit_plural": "<p class=\"over-daily\">이 금액은 현재 남은 일일 제한 금액인 __limit__ (일일 한도 __total__)을 초과합니다, 따라서 __count__ 개의 다른 계정의 승인이 필요합니다.</p>",
@@ -268,11 +271,11 @@
                 "estimatedGas": "예상 필요 개스",
                 "timeTexts": {
                     "0": "수분 또는 그 이상",
-                    "1": "대략 수분 이내에",
-                    "2": "보통 1분 이내에",
-                    "3": "대략 30초 이내에",
-                    "4": "대략 수초 이내에",
-                    "5": "대략 수초 이내에"
+                    "1": "대략 수분 이내",
+                    "2": "보통 1분 이내",
+                    "3": "대략 30초 이내",
+                    "4": "대략 수초 이내",
+                    "5": "대략 수초 이내"
                 }
             }
         },
