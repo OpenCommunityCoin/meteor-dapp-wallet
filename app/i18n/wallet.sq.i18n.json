@@ -23,7 +23,7 @@
             "texts": {
                 "note": "Shënim",
                 "balance": "Balanca",
-                "connectionErrorMist": "Nuk mund të lidhet. Ju lutemi të nisni geth duke përdorur:<br><br><small><code>__node__</code><br><br>Sigurohuni që vendndodhja e IPC të jetë ajo e parazgjedhur, nëse përdoret <code>datadir</code> e ndryshme, p.sh.<br><code>geth --datadir ... --ipcpath /Users/&lt;perdoruesiJuaj&gt;/Library/Ethereum/geth.ipc</code><br>or<br><code>geth --datadir ... --ipcpath /Users/&lt;perdoruesiJuaj&gt;/.ethereum/geth.ipc</code>. <br><br>Sipas dëshirës shtoni: <code>--unlock &lt;llogariaJuaj&gt;.</code></small>",
+                "connectionErrorMist": "Nuk mund të lidhet. Ju lutemi të nisni geth duke përdorur:<br><br><small><code>__node__</code><br><br>Sigurohuni që vendndodhja e IPC të jetë ajo e parazgjedhur, nëse përdoret <code>datadir</code> e ndryshme, p.sh.<br><code>geth --datadir ... --ipcpath /Users/&lt;perdoruesiJuaj&gt;/Library/ESC/geth.ipc</code><br>or<br><code>geth --datadir ... --ipcpath /Users/&lt;perdoruesiJuaj&gt;/.esc/geth.ipc</code>. <br><br>Sipas dëshirës shtoni: <code>--unlock &lt;llogariaJuaj&gt;.</code></small>",
                 "connectionErrorBrowser": "Nuk mund të lidhet. Ju lutemi të nisni geth duke përdorur:<br><br><small><code>__node__</code><br><br>Sipas dëshirës shtoni: <code>--unlock &lt;llogariaJuaj&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Duke pritur konfirmim!",
                 "nodeSyncing": "__blockDiff__ blloqe të mbetura",
@@ -38,7 +38,7 @@
                 }
             },
             "error": {
-                "wrongChain": "Duket se jeni në zinxhir tjetër. Ju lutemi të rihapni aplikacionin e kuletës Ethereum!"
+                "wrongChain": "Duket se jeni në zinxhir tjetër. Ju lutemi të rihapni aplikacionin e kuletës ESC!"
             },
             "warnings": {
                 "txOriginVulnerabilityWallet": "Kuleta e kësaj kontrate të zgjuar ka kod të papërditësuar dhe mund të jetë subjekt i sulmeve të vjedhjes së identitetit. ",
@@ -286,7 +286,7 @@
             "title": "<strong>Valuta</strong> të personalizuara",
             "subTitle": "Valutat e shtuara",
             "admin": "__name__ (faqja e administrimit)",
-            "description": "Valutat janë elemente të këmbyeshme të ndërtuara mbi platformën Ethereum. Në mënyrë që llogaritë të mund të kontrollojnë për valuta dhe t'i dërgojnë ato, duhet të shtoni adresën e tyre në këtë listë. Mund të krijoni valutën tuaj personale thjesht duke modifikuar <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">këtë shembull kontrate valute të personalizuar</a> ose duke mësuar më shumë rreth <a href=\"https://www.ethereum.org/token\" target=\"_blank\">Valutave Ethereum</a>.",
+            "description": "Valutat janë elemente të këmbyeshme të ndërtuara mbi platformën ESC. Në mënyrë që llogaritë të mund të kontrollojnë për valuta dhe t'i dërgojnë ato, duhet të shtoni adresën e tyre në këtë listë. Mund të krijoni valutën tuaj personale thjesht duke modifikuar <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">këtë shembull kontrate valute të personalizuar</a> ose duke mësuar më shumë rreth <a href=\"https://www.ethereum.org/token\" target=\"_blank\">Valutave ESC</a>.",
             "deleteToken": "A doni ta hiqni valutën <strong>__token__</strong> nga lista juaj?",
             "addedToken": "__token__ u shtua në listën tuaj të vëzhgimit",
             "editedToken": "U modifikua valuta __token__",
