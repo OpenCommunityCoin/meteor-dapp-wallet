@@ -17,32 +17,8 @@ The available units
 @property selectableUnits
 */
 selectableUnits = [{
-    text: 'ETHER',
+    text: 'ESC',
     value: 'ether'
-},
-{
-    text: 'FINNEY', //(µΞ)
-    value: 'finney'
-},
-{
-    text: 'BTC',
-    value: 'btc'
-},
-{
-    text: 'USD',
-    value: 'usd'
-},
-{
-    text: 'EUR',
-    value: 'eur'
-},
-{
-    text: 'GBP',
-    value: 'gbp'
-},
-{
-    text: 'BRL',
-    value: 'brl'
 }];
 
 
