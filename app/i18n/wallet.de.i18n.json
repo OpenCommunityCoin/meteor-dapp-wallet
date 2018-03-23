@@ -23,7 +23,7 @@
             "texts": {
                 "note": "Notiz",
                 "balance": "Kontostand",
-                "connectionErrorMist": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Geth mit folgendem Kommando:<br><br><small><code>__node__</code><br><br>Stellen Sie sicher, dass Sie Ihren IPC Pfad zum einen Standardpfad festgelegt haben, wenn Sie einen anderen <code>datadir</code> verwenden, z.B. <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/ESC/geth.ipc</code><br>oder<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.esc/geth.ipc</code>. <br><br>Alternative Option: <code>--unlock &lt;yourAccount&gt;.</code></small>",
+                "connectionErrorMist": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Geth mit folgendem Kommando:<br><br><small><code>__node__</code><br><br>Stellen Sie sicher, dass Sie Ihren IPC Pfad zum einen Standardpfad festgelegt haben, wenn Sie einen anderen <code>datadir</code> verwenden, z.B. <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ethersocial/geth.ipc</code><br>oder<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ethersocial/geth.ipc</code>. <br><br>Alternative Option: <code>--unlock &lt;yourAccount&gt;.</code></small>",
                 "connectionErrorBrowser": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Geth mit den folgenden Optionen:<br><br><small><code>__node__</code><br><br>Alternative Optionen: <code>--unlock &lt;yourAccount&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Ausstehende Bestätigung!",
                 "nodeSyncing": "__blockDiff__ ausstehende Blöcke",
@@ -37,7 +37,7 @@
                 }
             },
             "error": {
-                "wrongChain": "Sie folgen nicht der Hauptblockchain, bitte starten Sie die ESC Wallet App neu!"
+                "wrongChain": "Sie folgen nicht der Hauptblockchain, bitte starten Sie die ESN Wallet App neu!"
             },
             "warnings": {
                 "txOriginVulnerabilityWallet": "Diese intelligente Vertrag Geldbörse hat veraltete Code und unterliegt Phishing-Attacken. ",
@@ -89,7 +89,7 @@
             "owners": "Eigentümer",
             "walletsDescription": "Verträge werden auf der Blockchain gespeichert und dienen der Verwaltung von Ether. Ein Vertrag kann mehrere Konten als Eigentümer haben. Verträge zeigen im Gegensatz zu Konten immer eine vollständige Transaktionshistorie.",
             "walletsDescriptionNotEnoughFunds": "Es wird mindestens 1 Ether benötigt, um komplexe Verträge zu erstellen.",
-            "accountsDescription": "Konten können Ether, ESC-basierte Token oder Coins enthalten. Darüber hinaus können Konten Verträge kontrollieren. Im Gegensatz zu Wallets können Konten keine einkommenden Transaktionen anzeigen.",
+            "accountsDescription": "Konten können Ether, ESN-basierte Token oder Coins enthalten. Darüber hinaus können Konten Verträge kontrollieren. Im Gegensatz zu Wallets können Konten keine einkommenden Transaktionen anzeigen.",
             "buttons": {
                 "deposit": "Ether hinterlegen",
                 "buyEther": "Kaufe Ether",
@@ -279,7 +279,7 @@
             "title": "Eigene <strong>Token</strong>",
             "subTitle": "Hinzugefügte Token",
             "admin": "__name__ (Admin Seite)",
-            "description": "Token sind Währungen oder Tauschgegenstände, die auf der ESC-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://www.ethereum.org/token\" target=\"_blank\">ESC Token</a> lernen.",
+            "description": "Token sind Währungen oder Tauschgegenstände, die auf der ESN-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://www.ethereum.org/token\" target=\"_blank\">ESN Token</a> lernen.",
             "deleteToken": "Möchten Sie den Token <strong>__token__</strong> von Ihrer Liste entfernen?",
             "addedToken": "__token__ wurde Ihrer Beobachtungsliste hinzugefügt",
             "editedToken": "Token __token__ wurde bearbeitet",

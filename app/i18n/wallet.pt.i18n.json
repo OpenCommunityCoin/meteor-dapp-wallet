@@ -23,7 +23,7 @@
             "texts": {
                 "note": "Nota",
                 "balance": "Saldo",
-                "connectionErrorMist": "Não foi possível conectar. Inicie Geth usando:<br><br><small><code>__node__</code><br><br> Assegure-se que o endereço IPC está configurado corretamente desta forma: <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/ESC/geth.ipc</code><br>or<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.esc/geth.ipc</code>. <br><br>Opcional: <code>--unlock &lt;suaConta&gt;.</code></small>",
+                "connectionErrorMist": "Não foi possível conectar. Inicie Geth usando:<br><br><small><code>__node__</code><br><br> Assegure-se que o endereço IPC está configurado corretamente desta forma: <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ethersocial/geth.ipc</code><br>or<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ethersocial/geth.ipc</code>. <br><br>Opcional: <code>--unlock &lt;suaConta&gt;.</code></small>",
                 "connectionErrorBrowser": "Não foi possível conectar. Por favor inicie Geth com as seguintes opções: <br><br><small><code>__node__</code><br><br>Opcional: <code>--unlock &lt;suaConta&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Aguardando confirmação",
                 "nodeSyncing": "__blockDiff__ blocos restantes",
@@ -283,7 +283,7 @@
             "title": "<strong>Fichas</strong> customizadas",
             "subTitle": "Ficha adicionada",
             "admin": "__name__ (administração)",
-            "description": "Fichas são moedas, fichas colecionáveis ou outros tokens fungíveis construídos na plataforma ESC. Para que suas contas possam ver o seu saldo e enviar fichas, é necessário adicionar o endereço do token aqui. Você pode criar sua ficha modificando esse  <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">exemplo de ficha</a>. Leia mais sobre isso no nosso tutorial <a href=\"https://www.ethereum.org/token\" target=\"_blank\">como criar fichas no ESC (em inglês)</a>.",
+            "description": "Fichas são moedas, fichas colecionáveis ou outros tokens fungíveis construídos na plataforma ESN. Para que suas contas possam ver o seu saldo e enviar fichas, é necessário adicionar o endereço do token aqui. Você pode criar sua ficha modificando esse  <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">exemplo de ficha</a>. Leia mais sobre isso no nosso tutorial <a href=\"https://www.ethereum.org/token\" target=\"_blank\">como criar fichas no ESN (em inglês)</a>.",
             "deleteToken": "Você quer parar de observar a ficha <strong>__token__</strong>?",
             "addedToken": "Ficha __token__ adicinada na sua lista",
             "editedToken": "Ficha __token__ enviada",

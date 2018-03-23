@@ -23,7 +23,7 @@
             "texts": {
                 "note": "Note",
                 "balance": "Solde",
-                "connectionErrorMist": "Impossible de se connecter. Veuillez lancer gexp en utilisant : <br><br><small><code>__node__</code><br><br>Assurez-vous d'avoir bien renseigné le chemin IPC par défaut lorsque vous utilisez un <code>datadir</code> différent, ex : <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/ESC/geth.ipc</code><br>ou<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.esc/geth.ipc</code>. <br><br>Ajout facultatif : <code>--unlock &lt;votreCompte&gt;.</code></small>",
+                "connectionErrorMist": "Impossible de se connecter. Veuillez lancer gexp en utilisant : <br><br><small><code>__node__</code><br><br>Assurez-vous d'avoir bien renseigné le chemin IPC par défaut lorsque vous utilisez un <code>datadir</code> différent, ex : <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ethersocial/geth.ipc</code><br>ou<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ethersocial/geth.ipc</code>. <br><br>Ajout facultatif : <code>--unlock &lt;votreCompte&gt;.</code></small>",
                 "connectionErrorBrowser": "Impossible de se connecter. Veuillez lancer gexp en utilisant les options suivantes : <br><br><small><code>__node__</code><br><br>Ajout facultatif : <code>--unlock &lt;votreCompte&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Confirmation en cours !",
                 "nodeSyncing": "__blockDiff__ blocs restants",
@@ -37,7 +37,7 @@
                 }
             },
             "error": {
-                "wrongChain": "Vous semblez être sur une chaine différente, veuillez redémarrer ESC Wallet App !"
+                "wrongChain": "Vous semblez être sur une chaine différente, veuillez redémarrer ESN Wallet App !"
             },
             "warnings": {
                 "txOriginVulnerabilityWallet": "Ce portefeuille de contrat à puce a le code obsolète et est soumis à des attaques de phishing. ",
@@ -86,7 +86,7 @@
             "owners": "Propriétaires",
             "walletsDescription": "Les portefeuilles sont des contrats qui sont stockés sur la blockchain et peuvent détenir et sécuriser de l'ether. Plusieurs comptes peuvent en être propriétaires et ils conservent un registre complet de toutes les transactions.",
             "walletsDescriptionNotEnoughFunds": "Dès que vous avez plus de 1 ether, vous pouvez créer des contrats plus sophistiqués. Les portefeuilles sont des types de contrats intelligents qui permettent à vos fonds d'être contrôlés par plusieurs comptes et qui ont une option de limite de retrait quotidien permettant d'accroître la sécurité. Pour créer vos propres contrats personnalisés, allez sur l'onglet <em>Contrats </em>.",
-            "accountsDescription": "Les comptes sont des clés protégées par mot de passe qui peuvent détenir de l'ether, sécuriser des jetons basés sur ESC, et contrôler des contrats. Les comptes ne peuvent pas afficher les transactions entrantes.",
+            "accountsDescription": "Les comptes sont des clés protégées par mot de passe qui peuvent détenir de l'ether, sécuriser des jetons basés sur ESN, et contrôler des contrats. Les comptes ne peuvent pas afficher les transactions entrantes.",
             "buttons": {
                 "deposit": "Déposer de l'ether",
                 "buyEther": "Acheter Ether",
@@ -275,7 +275,7 @@
             "title": "<strong>Jetons</strong> que vous suivez",
             "subTitle": "Jetons ajoutés",
             "admin": "__name__ (page d'administration)",
-            "description": "Les jetons sont des devises et autres fongibles construits sur la plateforme ESC. Pour que les comptes puissent voir et envoyer des jetons, vous devez ajouter l'adresse de leur contrat à cette liste. Vous pouvez créer votre propre jeton simplement en modifiant <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">cet exemple d'un contrat de jeton</a> ou en en apprenant plus sur <a href=\"https://www.ethereum.org/token\" target=\"_blank\">les jetons dans ESC</a>.",
+            "description": "Les jetons sont des devises et autres fongibles construits sur la plateforme ESN. Pour que les comptes puissent voir et envoyer des jetons, vous devez ajouter l'adresse de leur contrat à cette liste. Vous pouvez créer votre propre jeton simplement en modifiant <a href=\"https://ethereum.org/token#the-code\" target=\"_blank\">cet exemple d'un contrat de jeton</a> ou en en apprenant plus sur <a href=\"https://www.ethereum.org/token\" target=\"_blank\">les jetons dans ESN</a>.",
             "deleteToken": "Voulez-vous supprimer le jeton <strong>__token__</strong> de votre liste ?",
             "addedToken": "__token__ ajouté à votre liste",
             "editedToken": "Jeton __token__ modifié",
