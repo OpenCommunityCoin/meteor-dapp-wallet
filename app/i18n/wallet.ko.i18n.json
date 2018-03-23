@@ -78,6 +78,7 @@
             "creating": "만들기",
             "importing": "불러오기",
             "accountNote": "각 계정은 ESN을 보관하고 전송할 수 있지만 개별 입금되는 트랜잭션들을 보여줄 수 없습니다. 개별 입금 트랜잭션을 보려면 <a href=\"/account/new\">지갑 컨트랙트 설치하기</a>를 해야합니다.",
+            "outOfSyncNote": "네트워크가 동기화되지 않은 경우 잔고가 최신 정보가 아닐 수 있습니다.",
             "walletNote": "대부분의 거래소는 아직 컨트랙트 지갑을 지원하지 않습니다. 송금하려는 금액을 계정주소로 먼저 이동시키기 바랍니다.",
             "addressCopiedToClipboard": "클립보드에 복사되었습니다",
             "addressNotCopiedToClipboard": "클립보드에 복사하는데 실패했습니다. 다시 시도하세요.",
